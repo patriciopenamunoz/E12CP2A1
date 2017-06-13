@@ -8,7 +8,7 @@
 
 - Desde el archivo descargado, dentro de *assets/stylesheets* extraer los archivos *_bootstrap.scss*,  *_bootstrap-sprockets.scss* y la carpeta *bootstrap* que contiene los componentes del framework.
 
-- Crear un nuevo proyecto en Rails.
+- Crear un nuevo proyecto en Rails 5.1
 
 - Inicializar Git.
 
@@ -21,8 +21,6 @@
 - Agregar los archivos cargados en *vendor* al **asset path**.
 
 - En el archivo *_variables.scss* de Bootstrap, modificar la grilla para que se implemente con **10 columnas**.
-
-- En caso de estar utilizando Rails 5.1, cargar **jQuery** utilizando CDN.
 
 - Comprobar que los pasos anteriores se llevaron a cabo de manera correcta y que la grilla está implementada con 10 columnas.
 
@@ -43,6 +41,10 @@
 - Implementar el primer layout en las vistas correspondientes al controller *pages*.
 
 - Implementar el nuevo layout en las vistas correspondientes al controller *products*.
+
+- **En ambos layouts el *yield* debe estar dentro de un div con clase *container***.
+
+- Implementar una clase bajo un **namespace** que permita asignar un **background-color** distinto al *container* de cada landing. 
 
 - En las vistas *home*, *about* e *index de products*, implementar contenido que utilice la grilla de 10 columnas creada al inicio.
 
