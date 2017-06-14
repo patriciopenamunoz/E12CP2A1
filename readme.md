@@ -1,6 +1,6 @@
 # Actividad 024 - Bootstrap y SASS
 
-- Para poder realizar este actividad debes haber realizado los cursos previos junto con los videos online correspondientes a la experiencia 11.
+- Para poder realizar este actividad debes haber realizado los cursos previos junto con los videos online correspondientes a la experiencia 12.
 
 ## Ejercicio 1:
 
