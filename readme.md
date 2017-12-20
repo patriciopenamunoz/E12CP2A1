@@ -4,7 +4,7 @@
 
 ## Ejercicio 1:
 
-- Descargar el SASS de Bootstrap.
+- Descargar el SASS de Bootstrap v3.3.7
 
 - Desde el archivo descargado, dentro de *assets/stylesheets* extraer los archivos *_bootstrap.scss*,  *_bootstrap-sprockets.scss* y la carpeta *bootstrap* que contiene los componentes del framework.
 
@@ -14,11 +14,11 @@
 
 - Crear un **controller pages** con las vistas *home* y *about*.
 
-- Integrar los archivos de *Bootstrap* en la carpeta *vendor* del proyecto.
+- Integrar los archivos de extraídos de *Bootstrap* en la carpeta *vendor/stylesheets* de nuestro proyecto.
 
-- Dentro del proyecto de rails, cambiar el formato de *application.css* para que soporte SASS. Luego cargar *Bootstrap* utilizando **@import**.
+- Cambiar el formato de *application.css* para que soporte SASS. Luego cargar *Bootstrap* utilizando **@import**.
 
-- Agregar los archivos cargados en *vendor* al **asset path**.
+- Agregar la carpeta creada en *vendor* al **asset path**.
 
 - En el archivo *_variables.scss* de Bootstrap, modificar la grilla para que se implemente con **10 columnas**.
 
@@ -28,24 +28,14 @@
 
 - Crear un *scaffold* de **Product** con los campos **name** y **price.** ( => migración )
 
-- Añadir un **navbar fixed** al layout.
+- Añadir un **navbar** de *Bootstrap* al layout.
 
     - El navbar debe contener los links a las vistas de *home*, *about* y al *index* de products.
 
-- Crear un **nuevo layout**.
+- Agregar las clases de *Bootstrap*, para la tabla y botones correspondientes, al *index* de **Product**.
 
-- Añadir un **navbar fixed** al nuevo layout (con un color distinto al anterior)
+- En el **layout**, *yield* debe estar dentro de un div con clase *container*.
 
-    - Este navbar debe contener un link al *home*.
-
-- Implementar el primer layout en las vistas correspondientes al controller *pages*.
-
-- Implementar el nuevo layout en las vistas correspondientes al controller *products*.
-
-- **En ambos layouts el *yield* debe estar dentro de un div con clase *container***.
-
-- Implementar una clase bajo un **namespace** que permita asignar un **background-color** distinto al *container* de cada landing. 
-
-- En las vistas *home*, *about* e *index de products*, implementar contenido que utilice la grilla de 10 columnas creada al inicio.
+- En las vistas *home* y *about*, agregar títulos y párrafos (Lorem ipsum...) utilizando la grilla de 10 columnas creada al inicio.
 
 - Hacer commit, y push a tu repositorio de GitHub.
